@@ -10,10 +10,6 @@ namespace UtilityHelper
     {
 
 
-        /// ////////////////////////////////////
-
-
-
 
         /// <summary>
         /// rearranges the elements into a sequence of element sets where no set has the same elements as another

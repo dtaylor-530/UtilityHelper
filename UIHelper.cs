@@ -34,9 +34,6 @@ namespace UtilityHelper
         }
 
 
-
-
-
         public static void DoEvents()
         {
             if (Application.Current == null)
@@ -49,5 +46,18 @@ namespace UtilityHelper
     }
 
 
+
+
+        public static class CollectionHelpers
+        {
+            public static void AddRange<T>(this ICollection<T> destination,
+                                           IEnumerable<T> source)
+            {
+                foreach (T item in source)
+                {
+                    destination.Add(item);
+                }
+            }
+        }
 
 }
