@@ -34,6 +34,9 @@
     <Reference Include="AutoMapper, Version=6.2.2.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
       <HintPath>..\..\Smarkets\packages\AutoMapper.6.2.2\lib\net45\AutoMapper.dll</HintPath>
     </Reference>
+    <Reference Include="CsvReader, Version=0.9.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\CsvTools.1.0.12\lib\CsvReader.dll</HintPath>
+    </Reference>
     <Reference Include="KaosCombinatorics, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\DynamicSystemViewer\packages\Kaos.Combinatorics.5.0.0\lib\net40\KaosCombinatorics.dll</HintPath>
     </Reference>
